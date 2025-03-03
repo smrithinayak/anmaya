@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.dots-layout {
+  
+}
+
+.header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.445);
+  box-shadow: 0 8px 32px 0 rgba(38, 48, 188, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  /* border-radius: 0 0 10px 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}

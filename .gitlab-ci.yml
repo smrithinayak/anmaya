@@ -1,0 +1,34 @@
+image: node:20
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 day
+  cache:
+    paths:
+      - node_modules/
+  only:
+    - mains
+
+deploy:
+  stage: deploy
+  image: google/cloud-sdk:latest
+  script:
+    - echo $GOOGLE_CLOUD_SERVICE_ACCOUNT_KEY > /tmp/gcloud-service-key.json
+    - gcloud auth activate-service-account --key-file=/tmp/gcloud-service-key.json
+    - gcloud config set project $GOOGLE_CLOUD_PROJECT_ID
+    - gsutil iam ch serviceAccount:gitlab-deployer@anmayasoftware.iam.gserviceaccount.com:objectViewer gs://staging-anmayasoftware
+    - gcloud app deploy
+  only:
+    - mains
+  dependencies:
+    - build

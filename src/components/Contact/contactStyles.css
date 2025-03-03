@@ -1,0 +1,17 @@
+.gradient-border {
+    position: relative;
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(to right, #ffffff, transparent); /* Adjust gradient colors */
+    border-radius: inherit; /* Match the border radius of the parent */
+    padding: 2px; /* Adjust to create the border effect */
+  }

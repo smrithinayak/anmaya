@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .logo-gradient-custom {
+    @apply bg-gradient-to-r from-blue-400 to-yellow-500;
+  }
+}
+
+@layer components {
+  .card-bg-gradient-custom {
+    @apply bg-[#191919b3] border-[1px] border-neutral-500;
+  }
+}
+
+@layer components {
+  .card-text-gradient-custom {
+    @apply text-xl font-semibold mb-2 bg-gradient-to-b from-white to-yellow-500 text-transparent bg-clip-text animate-gradient;
+  }
+}
+
+@layer utilities {
+  .text-title-gradient-custom {
+    @apply text-4xl font-bold pb-3 mb-16 text-center bg-gradient-to-b from-white to-gray-900 text-transparent bg-clip-text animate-gradient;
+  }
+}
+
+@layer utilities {
+  .form-label-custom {
+    @apply absolute text-gray-300 duration-300 transform px-2 peer-focus:px-[13px] -translate-y-[39px] scale-100 top-3 z-10 origin-[0] text-lg peer-focus:text-xl
+    peer-focus:text-gray-300 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
+    peer-placeholder-shown:top-3
+    peer-focus:top-2
+    peer-focus:scale-75 
+    peer-focus:-translate-y-[39px];
+  }
+}
+
+@layer utilities {
+  .form-field-custom {
+    @apply block w-full p-3 rounded-xl bg-gray-800 text-gray-300 placeholder-transparent outline-none border-none ring-2 ring-transparent focus:ring-blue-500 animate-pulse-slow;
+  }
+}
+
+p,
+h2,
+div {
+  /* font-family: "Poppins, sans-serif"; */
+  color: white;
+}
