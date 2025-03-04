@@ -38,7 +38,7 @@ const Navbar = () => {
           >
             <Link to={"/"}>
             <div className="">
-              <img src={orgData.images.brand} alt="" className="overflow-hidden w-full h-full invert-[15%]" /></div></Link>
+              <img src={orgData.images.brand} alt="" className="overflow-hidden w-32 h-12 invert-[15%]" /></div></Link>
           </motion.div>
 
           <ul className="hidden md:flex space-x-8">

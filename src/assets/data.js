@@ -1,4 +1,4 @@
-import { PhoneCall, MailIcon, LocateIcon, Computer, Smartphone, PaintBucket } from "lucide-react";
+import { PhoneCall, MailIcon, LocateIcon, Computer, Smartphone, PaintBucket, Database, Server, Cloud, ShieldCheck, BarChart, Settings } from "lucide-react";
 //import { PhoneCall, MailIcon, LocateIcon, Computer, Smartphone, PaintBucket, Database, Server, Cloud, ShieldCheck, BarChart, Settings } from "lucide-react";
 import images from "./images/index";
 
@@ -74,6 +74,13 @@ export const orgData = {
       description:
         "Providing top-notch ui/ux design solutions tailored to your specific needs and goals.",
     },
+    { id: 4, icon: Database, title: "Database Management", description: "Designing optimized and scalable database solutions." },
+    { id: 5, icon: Server, title: "Backend Development", description: "Developing powerful server-side applications and APIs." },
+    { id: 6, icon: Cloud, title: "Cloud Infrastructure", description: "Deploying scalable applications with cloud computing solutions." },
+    { id: 7, icon: ShieldCheck, title: "Security & Compliance", description: "Ensuring data security, encryption, and industry compliance." },
+    { id: 8, icon: BarChart, title: "Business Analytics", description: "Providing data-driven insights and analytics for growth." },
+    { id: 9, icon: Settings, title: "IT Consulting", description: "Offering expert advice for optimizing technology infrastructure." },
+  
 
   ],
   // featuredServices: [

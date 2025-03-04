@@ -15,6 +15,10 @@ const ServicesSection = () => {
   const staggerChildren = {
     visible: { transition: { staggerChildren: 0.1 } },
   };
+
+  // Slice the first 3 services
+  const displayedServices = orgData.services.slice(0, 3);
+
   return (
     <motion.section
       id="services"
@@ -31,7 +35,7 @@ const ServicesSection = () => {
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
         variants={staggerChildren}
       >
-        {orgData.services.map((service) => (
+        {displayedServices.map((service) => (
           <motion.div
             key={service.id}
             className="card-bg-gradient-custom p-8 shadow-lg hover:shadow-xl transition-all duration-300 rounded-xl"

@@ -1,11 +1,14 @@
-
-
-
-
-import Pageheader from "../Static/pageheader";
 "use client";
 import { motion } from "framer-motion";
-import { Database, Server, Cloud, ShieldCheck, BarChart, Settings} from "lucide-react";
+import { orgData } from "../../assets/data";
+import {
+  Database,
+  Server,
+  Cloud,
+  ShieldCheck,
+  BarChart,
+  Settings,
+} from "lucide-react";
 
 const ServiceCard = ({ icon: Icon, title, description, delay }) => {
   return (
@@ -28,14 +31,8 @@ const ServiceCard = ({ icon: Icon, title, description, delay }) => {
 };
 
 const ServicePage = () => {
-  const services = [
-    { icon: Database, title: "Database Management", description: "Designing optimized and scalable database solutions.", delay: 0.1 },
-    { icon: Server, title: "Backend Development", description: "Developing powerful server-side applications and APIs.", delay: 0.2 },
-    { icon: Cloud, title: "Cloud Infrastructure", description: "Deploying scalable applications with cloud computing solutions.", delay: 0.3 },
-    { icon: ShieldCheck, title: "Security & Compliance", description: "Ensuring data security, encryption, and industry compliance.", delay: 0.4 },
-    { icon: BarChart, title: "Business Analytics", description: "Providing data-driven insights and analytics for growth.", delay: 0.5 },
-    { icon: Settings, title: "IT Consulting", description: "Offering expert advice for optimizing technology infrastructure.", delay: 0.6 },
-  ];
+  // Use services directly from orgData
+  const services = orgData.services;
 
   return (
     <div className="py-16 px-4 md:px-8 bg-gray-950">
@@ -50,18 +47,19 @@ const ServicePage = () => {
             Our Services
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            We provide a range of services to support your digital transformation.
+            We provide a range of services to support your digital
+            transformation.
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <ServiceCard
-              key={index}
+              key={service.id}
               icon={service.icon}
               title={service.title}
               description={service.description}
-              delay={service.delay}
+              delay={index * 0.1} // Dynamically calculate delay based on index
             />
           ))}
         </div>
@@ -71,10 +69,6 @@ const ServicePage = () => {
 };
 
 export default ServicePage;
-
-
-
-
 
 // import { useLocation, useNavigate } from "react-router-dom";
 // import { motion } from "framer-motion";
@@ -155,4 +149,3 @@ export default ServicePage;
 // };
 
 // export default ServicePage;
-
