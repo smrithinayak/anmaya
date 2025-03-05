@@ -5,3 +5,4 @@ export const Contact = lazy(() => import('../pages/Contact'));
 export const About = lazy(() => import('../pages/About'));
 export const Services = lazy(() => import('../pages/Services'));
 export const Projects = lazy(() => import('../pages/Projects'));
+export const Team = lazy(() =>import('../pages/Team'))

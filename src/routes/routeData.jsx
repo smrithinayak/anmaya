@@ -1,4 +1,4 @@
-import { Home, About, Contact, Services, Projects } from "./RouteComponents";
+import { Home, About, Contact, Services, Projects,Team } from "./RouteComponents";
 
 const allRoutes = [
   {
@@ -25,6 +25,11 @@ const allRoutes = [
     id: 5,
     route: "/projects",
     element: <Projects />,
+  },
+  {
+    id: 6,
+    route: "/Team",
+    element: <Team />,
   },
 ];
 
