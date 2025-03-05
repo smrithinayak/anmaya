@@ -136,6 +136,41 @@ export const orgData = {
       image: "",
       tags: ["Next.js", "Hospitality", "Booking"],
     },
+    {
+      title: "Hotel Ashlesh",
+      description: "Luxury hotel website with room booking and amenities",
+      link: "https://hotelashlesh.com/",
+      image: "",
+      tags: ["Next.js", "Hospitality", "Booking"],
+    },
+    {
+      title: "Hotel Ashlesh",
+      description: "Luxury hotel website with room booking and amenities",
+      link: "https://hotelashlesh.com/",
+      image: "",
+      tags: ["Next.js", "Hospitality", "Booking"],
+    },
+    {
+      title: "Hotel Ashlesh",
+      description: "Luxury hotel website with room booking and amenities",
+      link: "https://hotelashlesh.com/",
+      image: "",
+      tags: ["Next.js", "Hospitality", "Booking"],
+    },
+    {
+      title: "Hotel Ashlesh",
+      description: "Luxury hotel website with room booking and amenities",
+      link: "https://hotelashlesh.com/",
+      image: "",
+      tags: ["Next.js", "Hospitality", "Booking"],
+    },
+    {
+      title: "Hotel Ashlesh",
+      description: "Luxury hotel website with room booking and amenities",
+      link: "https://hotelashlesh.com/",
+      image: "",
+      tags: ["Next.js", "Hospitality", "Booking"],
+    },
   ],  
   apps : [
     {
@@ -149,6 +184,25 @@ export const orgData = {
       description: "Complete publishing house management solution",
       image: "",
       tags: ["Next.js", "Management", "Publishing"],
+    },
+    {
+      title: "Travel Management",
+      description: "End-to-end travel booking and itinerary management",
+      image: "",
+      tags: ["React", "Travel", "Booking"],
+    },
+    {
+      title: "Play School Management",
+      description:
+        "Comprehensive school management and parent communication platform",
+      image: "",
+      tags: ["Next.js", "Education", "Management"],
+    },
+    {
+      title: "Hydroponics Farm Management",
+      description: "Smart farming solution for hydroponics management",
+      image: "",
+      tags: ["React", "Agriculture", "IoT"],
     },
     {
       title: "Travel Management",
