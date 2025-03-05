@@ -1,7 +1,33 @@
-import { PhoneCall, MailIcon, LocateIcon, Computer, Smartphone, PaintBucket, Wifi, ShoppingCart, Megaphone, Code } from "lucide-react";
-//import { PhoneCall, MailIcon, LocateIcon, Computer, Smartphone, PaintBucket, Database, Server, Cloud, ShieldCheck, BarChart, Settings } from "lucide-react";
-import images from "./images/index";
-// import { Layout } from "lucide-react";
+
+import {
+  PhoneCall,
+  MailIcon,
+  LocateIcon,
+  Computer,
+  Smartphone,
+  Wifi,
+  ShoppingCart,
+  Megaphone,
+  Code,
+} from "lucide-react"
+//import { PhoneCall, MailIcon, LocateIcon, Computer, Smartphone, PaintBucket, Database, Server, Cloud, ShieldCheck, BarChart, Settings } from 'lucide-react';
+import images from "./images/index"
+// import { Layout } from 'lucide-react';
+
+export const teamMembers = [
+  {
+    id: 1,
+    name: "Hariprasad",
+    role: "Founder & CEO",
+    bio: "Passionate about creating innovative solutions that make a difference.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com",
+      email: "jane@example.com",
+    },
+  },
+  
+]
 
 export const orgData = {
   name: "Anmaya Softwares",
@@ -58,15 +84,13 @@ export const orgData = {
       id: 1,
       icon: Computer,
       title: "Web Development",
-      description:
-        "Providing top-notch web development solutions tailored to your specific needs and goals.",
+      description: "Providing top-notch web development solutions tailored to your specific needs and goals.",
     },
     {
       id: 2,
       icon: Smartphone,
       title: "App Development",
-      description:
-        "Providing top-notch mobile apps solutions tailored to your specific needs and goals.",
+      description: "Providing top-notch mobile apps solutions tailored to your specific needs and goals.",
     },
     // {
     //   id: 3,
@@ -75,27 +99,44 @@ export const orgData = {
     //   description:
     //     "Providing top-notch ui/ux design solutions tailored to your specific needs and goals.",
     // },
-    { id: 3, icon: Code, title: "Software Development", description: "Creating custom software solutions tailored to your needs." },
-    { id: 4, icon: Wifi, title: "Communication & Internet Services", description: "Providing reliable and high-speed connectivity solutions." },
+    {
+      id: 3,
+      icon: Code,
+      title: "Software Development",
+      description: "Creating custom software solutions tailored to your needs.",
+    },
+    {
+      id: 4,
+      icon: Wifi,
+      title: "Communication & Internet Services",
+      description: "Providing reliable and high-speed connectivity solutions.",
+    },
     // { id: 5, icon: Tools, title: "Maintenance & Support", description: "Ensuring smooth operation and technical support for your software." },
-    { id: 6, icon: ShoppingCart, title: "E-Commerce Portal Development", description: "Building scalable and secure e-commerce solutions." },
-    { id: 7, icon: Megaphone, title: "Online Marketing Services", description: "Helping businesses grow through strategic digital marketing." },
-   
+    {
+      id: 6,
+      icon: ShoppingCart,
+      title: "E-Commerce Portal Development",
+      description: "Building scalable and secure e-commerce solutions.",
+    },
+    {
+      id: 7,
+      icon: Megaphone,
+      title: "Online Marketing Services",
+      description: "Helping businesses grow through strategic digital marketing.",
+    },
   ],
- 
-  websites : [
+
+  websites: [
     {
       title: "Ishna Play School",
-      description:
-        "Educational institution website for early childhood development",
+      description: "Educational institution website for early childhood development",
       link: "https://ishnaplayschool.in/",
       image: "",
       tags: ["Next.js", "Education", "UI/UX"],
     },
     {
       title: "Udupi Chamber of Commerce",
-      description:
-        "Official website for the Udupi Chamber of Commerce and Industry",
+      description: "Official website for the Udupi Chamber of Commerce and Industry",
       link: "https://ucciudupi.com/",
       image: "",
       tags: ["React", "Business", "Commerce"],
@@ -121,8 +162,8 @@ export const orgData = {
       image: "",
       tags: ["Next.js", "Hospitality", "Booking"],
     },
-  ],  
-  apps : [
+  ],
+  apps: [
     {
       title: "GST Invoicing",
       description: "Automated GST invoicing and management system",
@@ -143,8 +184,7 @@ export const orgData = {
     },
     {
       title: "Play School Management",
-      description:
-        "Comprehensive school management and parent communication platform",
+      description: "Comprehensive school management and parent communication platform",
       image: "",
       tags: ["Next.js", "Education", "Management"],
     },
@@ -156,7 +196,7 @@ export const orgData = {
     },
   ],
   images,
-};
+}
 
 export const navItems = [
   {
@@ -184,11 +224,12 @@ export const navItems = [
   //   title: "Contact",
   //   link: "/contact",
   // },
-];
+]
 
 export const aboutData = {
   title: "About Us",
-  description: "We are a team of experienced developers who are dedicated to providing the best possible solutions to our clients.",
+  description:
+    "We are a team of experienced developers who are dedicated to providing the best possible solutions to our clients.",
   image: "",
-};
+}
 

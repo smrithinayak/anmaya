@@ -9,7 +9,7 @@ const DotsLayout = ({ children }) => {
         <div className="dots"></div>
       </div>
       <div className="relative z-10">
-        {children} {/* Render the passed component */}
+        {children} 
       </div>
       <style jsx>{`
         .dots {
