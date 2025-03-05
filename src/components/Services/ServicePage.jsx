@@ -9,6 +9,7 @@ import {
   BarChart,
   Settings,
 } from "lucide-react";
+import DotsLayout from "../Static/layout";
 
 const ServiceCard = ({ icon: Icon, title, description, delay }) => {
   return (
@@ -35,7 +36,7 @@ const ServicePage = () => {
   const services = orgData.services;
 
   return (
-    <div className="dots-layout relative overflow-hidden bg-[#000000]">
+    <DotsLayout>
       <div className="container mx-auto py-16 px-6 pb-24">
         <motion.div
           className="text-center mb-16"
@@ -64,7 +65,7 @@ const ServicePage = () => {
           ))}
         </div>
       </div>
-    </div>
+    </DotsLayout>
   );
 };
 

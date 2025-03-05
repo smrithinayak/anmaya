@@ -185,3 +185,10 @@ export const navItems = [
   //   link: "/contact",
   // },
 ];
+
+export const aboutData = {
+  title: "About Us",
+  description: "We are a team of experienced developers who are dedicated to providing the best possible solutions to our clients.",
+  image: "",
+};
+

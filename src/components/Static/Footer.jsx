@@ -138,18 +138,18 @@ const Footer = () => {
         </div>
 
         {/* Contact Section */}
-        <div>
+        <div className="flex-1 items-left justify-left">
           <h3 className="text-xl font-semibold mb-4 text-gray-100 justify-start">Contact</h3>
           <div className="space-y-3 text-gray-400">
-            <div className="flex items-center justify-center space-x-3">
+            <div className="flex items-left justify-left space-x-3">
               <Mail className="w-5 h-5 text-blue-400" />
               <p className="text-gray-400">info@anmaya.in</p>
             </div>
-            <div className="flex items-center justify-center space-x-3">
+            <div className="flex items-left justify-left space-x-3">
               <Phone className="w-5 h-5 text-blue-400" />
               <p className="text-gray-400">+91-7975179172</p>
             </div>
-            <div className="flex items-center justify-center space-x-3">
+            <div className="flex items-left justify-left space-x-3">
               <MapPin className="w-6 h-6 text-blue-400" />
               <p className="text-gray-400 ">Door No. 3-88G17, First Floor,<br /> V4 Central Township, Kukkikatte,<br /> Udupi - 576101</p>
             </div>

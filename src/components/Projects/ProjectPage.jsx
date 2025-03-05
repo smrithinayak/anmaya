@@ -1,10 +1,13 @@
-import Pageheader from "../Static/pageheader";
+import DotsLayout from "../Static/layout";
+import { orgData } from "../../assets/data";
 
 const ProjectPage = () => {
   return (
-    <div className="project-page">
-      <Pageheader pageText={"Projects"} />
-    </div>
+    <DotsLayout>
+      <div className="project-page">
+        <p>add projects here for website and app development pull this from data.js</p>
+      </div>
+    </DotsLayout>
   );
 };
 
