@@ -1,6 +1,7 @@
-import { PhoneCall, MailIcon, LocateIcon, Computer, Smartphone, PaintBucket, Database, Server, Cloud, ShieldCheck, BarChart, Settings } from "lucide-react";
+import { PhoneCall, MailIcon, LocateIcon, Computer, Smartphone, PaintBucket, Wifi, ShoppingCart, Megaphone, Code } from "lucide-react";
 //import { PhoneCall, MailIcon, LocateIcon, Computer, Smartphone, PaintBucket, Database, Server, Cloud, ShieldCheck, BarChart, Settings } from "lucide-react";
 import images from "./images/index";
+// import { Layout } from "lucide-react";
 
 export const orgData = {
   name: "Anmaya Softwares",
@@ -67,36 +68,20 @@ export const orgData = {
       description:
         "Providing top-notch mobile apps solutions tailored to your specific needs and goals.",
     },
-    {
-      id: 3,
-      icon: PaintBucket,
-      title: "UI/UX Design",
-      description:
-        "Providing top-notch ui/ux design solutions tailored to your specific needs and goals.",
-    },
-    { id: 4, icon: Database, title: "Database Management", description: "Designing optimized and scalable database solutions." },
-    { id: 5, icon: Server, title: "Backend Development", description: "Developing powerful server-side applications and APIs." },
-    { id: 6, icon: Cloud, title: "Cloud Infrastructure", description: "Deploying scalable applications with cloud computing solutions." },
-    { id: 7, icon: ShieldCheck, title: "Security & Compliance", description: "Ensuring data security, encryption, and industry compliance." },
-    { id: 8, icon: BarChart, title: "Business Analytics", description: "Providing data-driven insights and analytics for growth." },
-    { id: 9, icon: Settings, title: "IT Consulting", description: "Offering expert advice for optimizing technology infrastructure." },
-  
-
+    // {
+    //   id: 3,
+    //   icon: PaintBucket,
+    //   title: "UI/UX Design",
+    //   description:
+    //     "Providing top-notch ui/ux design solutions tailored to your specific needs and goals.",
+    // },
+    { id: 3, icon: Code, title: "Software Development", description: "Creating custom software solutions tailored to your needs." },
+    { id: 4, icon: Wifi, title: "Communication & Internet Services", description: "Providing reliable and high-speed connectivity solutions." },
+    // { id: 5, icon: Tools, title: "Maintenance & Support", description: "Ensuring smooth operation and technical support for your software." },
+    { id: 6, icon: ShoppingCart, title: "E-Commerce Portal Development", description: "Building scalable and secure e-commerce solutions." },
+    { id: 7, icon: Megaphone, title: "Online Marketing Services", description: "Helping businesses grow through strategic digital marketing." },
+   
   ],
-  // featuredServices: [
-  //   { id: 1, icon: Computer, title: "Web Development", description: "Building responsive, fast, and secure web applications." },
-  //   { id: 2, icon: Smartphone, title: "Mobile App Development", description: "Creating seamless native and cross-platform mobile applications." },
-  //   { id: 3, icon: PaintBucket, title: "UI/UX Design", description: "Crafting intuitive and visually engaging user experiences." },
-  // ],
-  // allServices: [
-  //   { id: 4, icon: Database, title: "Database Management", description: "Designing optimized and scalable database solutions." },
-  //   { id: 5, icon: Server, title: "Backend Development", description: "Developing powerful server-side applications and APIs." },
-  //   { id: 6, icon: Cloud, title: "Cloud Infrastructure", description: "Deploying scalable applications with cloud computing solutions." },
-  //   { id: 7, icon: ShieldCheck, title: "Security & Compliance", description: "Ensuring data security, encryption, and industry compliance." },
-  //   { id: 8, icon: BarChart, title: "Business Analytics", description: "Providing data-driven insights and analytics for growth." },
-  //   { id: 9, icon: Settings, title: "IT Consulting", description: "Offering expert advice for optimizing technology infrastructure." },
-  // ],
-  
  
   websites : [
     {

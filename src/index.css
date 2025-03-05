@@ -28,7 +28,7 @@
 
 @layer utilities {
   .form-label-custom {
-    @apply absolute text-gray-300 duration-300 transform px-2 peer-focus:px-[13px] -translate-y-[39px] scale-100 top-3 z-10 origin-[0] text-lg peer-focus:text-xl
+    @apply absolute text-gray-300 duration-300 transform px-2 peer-focus:px-[13px] -translate-y-[39px] scale-100 top-1 z-10 origin-[0] text-lg peer-focus:text-xl
     peer-focus:text-gray-300 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
     peer-placeholder-shown:top-3
     peer-focus:top-2
