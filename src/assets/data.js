@@ -131,72 +131,78 @@ export const orgData = {
       title: "Ishna Play School",
       description: "Educational institution website for early childhood development",
       link: "https://ishnaplayschool.in/",
-      image: "",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJi0V-_IrGtePAKkAXir1pL1JI3gEHVsLfRg&s",
       tags: ["Next.js", "Education", "UI/UX"],
     },
     {
       title: "Udupi Chamber of Commerce",
       description: "Official website for the Udupi Chamber of Commerce and Industry",
       link: "https://ucciudupi.com/",
-      image: "",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYlnndNgMiLh6yGLwrXqXbuesKkrL9BiHqQ&s",
       tags: ["React", "Business", "Commerce"],
     },
     {
       title: "Indian Kitchen",
       description: "Restaurant website showcasing authentic Indian cuisine",
       link: "#",
-      image: "",
+      image: "https://rishikeshcamps.in/wp-content/uploads/2023/05/restaarant.jpg",
       tags: ["Next.js", "Restaurant", "Food"],
     },
     {
       title: "JaySmiles",
       description: "Dental clinic website with appointment booking system",
       link: "#",
-      image: "",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeI-0EXqSzKW3nsuCTf2Ok3qRoFr9PqJlErg&s",
       tags: ["React", "Healthcare", "Booking"],
     },
     {
       title: "Hotel Ashlesh",
       description: "Luxury hotel website with room booking and amenities",
       link: "https://hotelashlesh.com/",
-      image: "",
+      image: "https://i.pinimg.com/474x/68/7e/16/687e16b383db5a854552169aacf463e5.jpg",
       tags: ["Next.js", "Hospitality", "Booking"],
     },
-  ],
+    
+  ],  
+  
   apps: [
     {
       title: "GST Invoicing",
       description: "Automated GST invoicing and management system",
-      image: "",
+      image: "https://themunim.com/wp-content/uploads/2023/03/How-To-Make-Invoice-Under-GST-Rules.png",
       tags: ["React", "Finance", "Automation"],
     },
     {
       title: "Publisher Management",
       description: "Complete publishing house management solution",
-      image: "",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfj59c_6S6CnXtFzzq1tCryUKdV5ZjzQJjcQ&s",
       tags: ["Next.js", "Management", "Publishing"],
     },
     {
       title: "Travel Management",
       description: "End-to-end travel booking and itinerary management",
-      image: "",
+      image: "https://www.sandipuniversity.edu.in/blog/wp-content/uploads/2020/02/bba-travel-tourism-management.jpg",
       tags: ["React", "Travel", "Booking"],
     },
     {
       title: "Play School Management",
       description: "Comprehensive school management and parent communication platform",
-      image: "",
+      image: "https://fileserver.teachstarter.com/thumbnails/1410029-how-to-set-up-learning-centers-classroom-thumbnail-0-600x400.png",
       tags: ["Next.js", "Education", "Management"],
     },
     {
       title: "Hydroponics Farm Management",
       description: "Smart farming solution for hydroponics management",
-      image: "",
+      image: "https://californiaagnet.com/wp-content/uploads/sites/13/2017/01/Archis-Acres-visit-1.jpg",
       tags: ["React", "Agriculture", "IoT"],
     },
-  ],
+    
+    
+  ], 
+
   images,
 }
+
 
 export const navItems = [
   {

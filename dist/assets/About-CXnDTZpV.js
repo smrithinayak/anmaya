@@ -1,1 +1,0 @@
-import{j as t}from"./index-B15tnrWU.js";import{p as a}from"./pageTransition-R5gORba6.js";import{P as e}from"./Pageheader-Dxsw3FPg.js";const o=()=>t.jsx("div",{className:"about-page",children:t.jsx(e,{pageText:"About Us"})}),s=()=>t.jsx("div",{"data-page-id":"about-page",children:t.jsx(o,{})}),n=a(s);export{n as default};
